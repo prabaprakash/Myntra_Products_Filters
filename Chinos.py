@@ -11,7 +11,7 @@ import urllib3.request
 from bs4 import BeautifulSoup
 from requests.packages.urllib3.exceptions import InsecureRequestWarning
 import requests_cache
-requests_cache.install_cache('demo_cache')
+#requests_cache.install_cache('demo_cache')
 # Pre Configurations
 urllib3.disable_warnings()
 requests.packages.urllib3.disable_warnings(InsecureRequestWarning)
